@@ -52,7 +52,7 @@ function FDGLoadData(var data) {
 		.force("charge", d3.forceManyBody())
 		.force("center", d3.forceCenter(width / 2, height / 2));
 
-	d3.json(Qva.Remote +"?public=only&name=Extensions/Wendel/miserables.json", function(error, graph) {
+	d3.json(Qva.Remote +"?public=only&name=Extensions/ForceDirectedGraph/miserables.json", function(error, graph) {
 	  if (error) throw error;
 
 	  var link = svg.append("g")

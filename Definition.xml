@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+//also see https://bl.ocks.org/mbostock/4062045
+<ExtensionObject  Label="Force directed graph"  Description="Force directed graph based on bl.ocks.org from Mike Bostocks">
+	<Dimension Label="From" Initial="" DropTarget="" />
+	<Dimension Label="To" Initial="" DropTarget="" />
+	<Measurement Label="Measurement" Initial="" />
+	<Initiate Name="Chart.Title" value="Force directed graph" />
+	<Initiate Name="Caption.Text" Value="Force directed graph" />
+</ExtensionObject>
